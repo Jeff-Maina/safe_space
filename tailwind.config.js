@@ -7,11 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        bodoni : "Bodoni Moda",
+        sans : "Source Sans Pro",
+        hara : "HARA"
       },
+      colors: {
+        'lime' : "#cfdcc8",
+        'light-green': '#4D6754',
+        'medium-green': '#246532',
+        'dark-green': '#173320',
+        'custom-white': '#FFF8ED'
+      }
     },
   },
   plugins: [],
