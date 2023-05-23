@@ -9,8 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         bodoni : "Bodoni Moda",
-        sans : "Source Sans Pro",
-        hara : "HARA"
+        sans : "Lato",
+        poppins : "Poppins",
+        hara : "HARA",
+        poiret : "Flamenco",
       },
       colors: {
         'lime' : "#cfdcc8",
