@@ -307,7 +307,7 @@ export default function Home() {
               className="xl:ml-10 ml-0 text-medium-green text-lg py-1 px-4 cursor-pointer font-semibold font-poppins hover:text-dark-green transition-all duration-300"
               href="#retreat"
             >
-              What we'll do
+              What we do
             </a>
             <a
               id="nav_link"
@@ -1367,7 +1367,7 @@ export default function Home() {
                 }}
               >
                 <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
-                  whats included?
+                  what's included?
                 </h2>
                 <div
                   className={`md:w-8 md:h-8 h-6 w-6 border border-green-600 rounded-full flex item justify-center ${faqchevronOne} transition-all ease duration-500`}
@@ -1655,7 +1655,6 @@ export default function Home() {
         <footer className="w-full md:mt-20 h-auto xl:px-16 px-4 md:grid grid-cols-2">
           <div className="md:w-full h-full lg:p-14 lg:pr-0 md:pr-8">
             <h1
-              id="nav_link"
               className="font-bodoni lg:text-6xl text-4xl text-light-green md:mb-10 mt-10 mb-6"
             >
               Safe Space .
