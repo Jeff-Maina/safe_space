@@ -490,9 +490,9 @@ export default function Home() {
                 Space and embark on a transformative experience.
               </p>
               <div className="w-4/5 mt-2 h-20 flex items-center md:m-0 m-auto ">
-                <button className="text-custom-white text-lg w-[250px] cursor-pointer mr-8 bg-light-green h-12 hover:bg-dark-green transition-colors ease duration-200 rounded-3xl">
-                  <a href="#agenda">See the agenda</a>
-                </button>
+                <a href="#agenda" className="text-custom-white text-lg w-[250px] cursor-pointer mr-8 bg-light-green h-12 hover:bg-dark-green transition-colors ease duration-200 rounded-3xl flex items-center justify-center">
+                  See the agenda
+                </a>
                 <button className="text-dark-green text-lg w-[250px] cursor-pointer border bg-lime h-12 rounded-3xl hover:bg-dark-green hover:text-custom-white transition-colors ease duration-200">
                   Book now
                 </button>
