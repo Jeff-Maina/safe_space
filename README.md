@@ -1,7 +1,7 @@
 # SAFE PLACE
 
 ## Description
-A simple website for a yoga and wellness sanctuary.
+A simple website concept for a yoga and wellness sanctuary.
 
 ## Technologies used
 
