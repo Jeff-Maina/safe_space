@@ -14,31 +14,31 @@ export default function Home() {
   const [accItemSeven, setAccItemSeven] = useState(false);
 
   const itemOneClass = accItemOne
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-36 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronOne = accItemOne ? "rotate-180" : "rotate-0";
   const itemTwoClass = accItemTwo
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-36 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronTwo = accItemTwo ? "rotate-180" : "rotate-0";
   const itemThreeClass = accItemThree
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-44 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronThree = accItemThree ? "rotate-180" : "rotate-0";
   const itemFourClass = accItemFour
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-44 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronFour = accItemFour ? "rotate-180" : "rotate-0";
   const itemFiveClass = accItemFive
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-32 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronFive = accItemFive ? "rotate-180" : "rotate-0";
   const itemSixClass = accItemSix
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-32 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronSix = accItemSix ? "rotate-180" : "rotate-0";
   const itemSevenClass = accItemSeven
-    ? "md:h-36 h-32 overflow-hidden"
+    ? "h-44 overflow-hidden"
     : "overflow-hidden h-0";
   const chevronSeven = accItemSeven ? "rotate-180" : "rotate-0";
 
@@ -122,27 +122,27 @@ export default function Home() {
   const [faqaccItemSix, setfaqAccItemSix] = useState(false);
 
   const faqitemOneClass = faqaccItemOne
-    ? "md:h-44 h-64 overflow-hidden"
+    ? "h-44 overflow-hidden"
     : "overflow-hidden h-0";
   const faqchevronOne = faqaccItemOne ? "rotate-180" : "rotate-0";
   const faqitemTwoClass = faqaccItemTwo
-    ? "md:h-44 h-64 overflow-hidden"
+    ? "md:h-44 h-56 overflow-hidden"
     : "overflow-hidden h-0";
   const faqchevronTwo = faqaccItemTwo ? "rotate-180" : "rotate-0";
   const faqitemThreeClass = faqaccItemThree
-    ? "md:h-44 h-64 overflow-hidden"
+    ? "md:h-44 h-52 overflow-hidden"
     : "overflow-hidden h-0";
   const faqchevronThree = faqaccItemThree ? "rotate-180" : "rotate-0";
   const faqitemFourClass = faqaccItemFour
-    ? "md:h-44 h-64 overflow-hidden"
+    ? "md:h-44 h-56 overflow-hidden"
     : "overflow-hidden h-0";
   const faqchevronFour = faqaccItemFour ? "rotate-180" : "rotate-0";
   const faqitemFiveClass = faqaccItemFive
-    ? "md:h-44 h-64 overflow-hidden"
+    ? "md:h-44 h-44 overflow-hidden"
     : "overflow-hidden h-0";
   const faqchevronFive = faqaccItemFive ? "rotate-180" : "rotate-0";
   const faqitemSixClass = faqaccItemSix
-    ? "md:h-44 h-64 overflow-hidden"
+    ? "md:h-44 h-44 overflow-hidden"
     : "overflow-hidden h-0";
   const faqchevronSix = faqaccItemSix ? "rotate-180" : "rotate-0";
 
@@ -383,7 +383,7 @@ export default function Home() {
             </span>
           </div>
           <div
-            className={`absolute w-full h-80 pb-6 left-0 bg-custom-white   ${menuClass} flex items-center flex-col justify-end transition-all ease duration-300`}
+            className={`absolute w-full h-80 pb-6 left-0 bg-custom-white   ${menuClass} flex items-center flex-col justify-end transition-all ease duration-700`}
           >
             <a
               onClick={() => {
@@ -391,7 +391,7 @@ export default function Home() {
               }}
               href="#"
               id="nav_link"
-              className="font-poppins mb-2 font-semibold text-lg cursor-pointe hover:text-dark-green transition-all duration-300"
+              className="font-poppins hover:line-through mb-2 font-semibold text-lg cursor-pointe hover:text-dark-green transition-all duration-300"
             >
               Main
             </a>
@@ -401,7 +401,7 @@ export default function Home() {
               }}
               href="#about"
               id="nav_link"
-              className="font-poppins mb-2 font-semibold text-lg cursor-pointer "
+              className="font-poppins hover:line-through mb-2 font-semibold text-lg cursor-pointer "
             >
               About Us
             </a>
@@ -411,7 +411,7 @@ export default function Home() {
               }}
               href="#retreat"
               id="nav_link"
-              className="font-poppins mb-2 font-semibold text-lg cursor-pointer "
+              className="font-poppins hover:line-through mb-2 font-semibold text-lg cursor-pointer "
             >
               What we do
             </a>
@@ -421,7 +421,7 @@ export default function Home() {
               }}
               href="#agenda"
               id="nav_link"
-              className="font-poppins mb-2 font-semibold text-lg cursor-pointer "
+              className="font-poppins hover:line-through mb-2 font-semibold text-lg cursor-pointer "
             >
               Agenda
             </a>
@@ -431,7 +431,7 @@ export default function Home() {
               }}
               href="#gallery"
               id="nav_link"
-              className="font-poppins mb-2 font-semibold text-lg cursor-pointer "
+              className="font-poppins hover:line-through mb-2 font-semibold text-lg cursor-pointer "
             >
               Gallery
             </a>
@@ -441,7 +441,7 @@ export default function Home() {
               }}
               href="#faq"
               id="nav_link"
-              className="font-poppins mb-2 font-semibold text-lg cursor-pointer "
+              className="font-poppins hover:line-through mb-2 font-semibold text-lg cursor-pointer "
             >
               FAQs
             </a>
@@ -457,7 +457,7 @@ export default function Home() {
               <h1 className="xl:mb-4 font-semibold text-dark-green text-lg font-poppins text-center md:text-start mt-4 md:my-0">
                 Bali Retreat 29 Sep - 5 Oct
               </h1>
-              <h1 className="xl:text-[7rem] text-[5em] text-center md:text-start text-medium-green mt-0 mb-0 p-0 font-bodoni ">
+              <h1 className="xl:text-[7rem] md:text-[5em] text-[3em] text-center md:text-start text-medium-green mt-0 mb-0 p-0 font-bodoni ">
                 Safe space.
               </h1>
               <span className="w-full h-10 flex items-center justify-center md:justify-start">
@@ -489,11 +489,11 @@ export default function Home() {
                 community and discover inner peace through yoga. Find your Safe
                 Space and embark on a transformative experience.
               </p>
-              <div className="w-4/5 mt-2 h-20 flex items-center md:m-0 m-auto ">
-                <a href="#agenda" className="text-custom-white text-lg w-[250px] cursor-pointer mr-8 bg-light-green h-12 hover:bg-dark-green transition-colors ease duration-200 rounded-3xl flex items-center justify-center">
+              <div className="w-4/5 mt-2 h-20 md:flex items-center md:m-0 m-auto ">
+                <a href="#agenda" className="text-custom-white text-lg w-full md:w-[250px] cursor-pointer mr-8 bg-light-green my-4 h-12 hover:bg-dark-green transition-colors ease duration-200 rounded-3xl flex items-center justify-center">
                   See the agenda
                 </a>
-                <button className="text-dark-green text-lg w-[250px] cursor-pointer border bg-lime h-12 rounded-3xl hover:bg-dark-green hover:text-custom-white transition-colors ease duration-200">
+                <button className="text-dark-green text-lg md:w-[250px] w-full cursor-pointer border bg-lime h-12 rounded-3xl hover:bg-dark-green hover:text-custom-white transition-colors ease duration-200">
                   Book now
                 </button>
               </div>
@@ -517,7 +517,7 @@ export default function Home() {
         >
           <h1
             id="title"
-            className="md:text-[2.5em] text-[2em] md:mb-0 mb-10 font-bodoni text-medium-green"
+            className="md:text-[2.5em] text-[2em] md:mb-0 font-bodoni text-medium-green"
           >
             About Us.
           </h1>
@@ -525,7 +525,7 @@ export default function Home() {
             <div className="w-full h-full flex items-center md:justify-start justify-center">
               <div className="md:w-4/5 h-4/5 xl:h-full xl:py-10 overflow-hidden my-10 md:my-0">
                 <img
-                  className="md:w-full md:h-full h-[600px] object-cover"
+                  className="md:w-full md:h-full object-cover"
                   src="https://i.pinimg.com/564x/c7/f8/ae/c7f8aeeef1d12069596d859de079c100.jpg"
                   alt=""
                 />
@@ -876,7 +876,7 @@ export default function Home() {
                   handleItemOne();
                 }}
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 1. Mindful Monday
                 </h2>
                 <div
@@ -918,7 +918,7 @@ export default function Home() {
                 }}
                 className="w-full cursor-pointer h-16 md:h-24 flex items-center justify-between border-black"
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 2. Tranquil Tuesday
                 </h2>
                 <div
@@ -960,7 +960,7 @@ export default function Home() {
                 }}
                 className="w-full cursor-pointer h-16 md:h-24 flex items-center justify-between border-black"
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 3. Wellness Wednesday
                 </h2>
                 <div
@@ -1002,7 +1002,7 @@ export default function Home() {
                   handleItemFour();
                 }}
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 4. Thriving Thursday
                 </h2>
                 <div
@@ -1044,7 +1044,7 @@ export default function Home() {
                   handleItemFive();
                 }}
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 5. Flow and Release Friday
                 </h2>
                 <div
@@ -1086,7 +1086,7 @@ export default function Home() {
                   handleItemSix();
                 }}
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 6. Strength and Balance Saturday
                 </h2>
                 <div
@@ -1128,7 +1128,7 @@ export default function Home() {
                   handleItemSeven();
                 }}
               >
-                <h2 className="md:text-[1.3rem] text-lg leading-7 font-poppins text-dark-green">
+                <h2 className="md:text-[1.3rem] text-md leading-7 font-poppins text-dark-green">
                   Day 7. Serene Sunday
                 </h2>
                 <div
@@ -1279,21 +1279,21 @@ export default function Home() {
             id="carousel"
             className="whitespace-nowrap flex w-full overflow-hidden"
           >
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/3c/58/ce/3c58ce1d083b220cf69ee7bb71942e0e.jpg"
                 alt=""
                 className="w-full h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/98/e4/7c/98e47cf38e9419e1209efe309ff2a5c1.jpg"
                 alt=""
                 className="h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer w-full"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src=" https://i.pinimg.com/564x/33/fa/14/33fa1476b0dc26f2fb2e8bd07bfa1ccb.jpg"
                 alt=""
@@ -1301,42 +1301,42 @@ export default function Home() {
               />
             </div>
 
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/24/06/52/240652b228af9ab29d9335cb325364fd.jpg"
                 alt=""
                 className="w-full h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/c7/37/1c/c7371c8ad71ad47686d3ee679155fb76.jpg"
                 alt=""
                 className="w-full h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/7e/82/cd/7e82cdcacd71648c721dad7b67d8c3cf.jpg"
                 alt=""
                 className="w-full h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/95/54/56/9554568668f3879266d4a0531c335178.jpg"
                 alt=""
                 className="w-full h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/fb/59/09/fb5909f2024f57488c2aed36727db6a1.jpg"
                 alt=""
                 className="w-full h-full object-cover hover:scale-105 transition ease duration-500 cursor-pointer"
               />
             </div>
-            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl h-auto">
+            <div className="inline-block md:mr-6 mr-3 min-w-[325px] lg:min-w-[410px] overflow-hidden lg:max-h-[650px] rounded-3xl md:h-auto max-h-[65vh] md:max-h-fit">
               <img
                 src="https://i.pinimg.com/564x/3f/02/e4/3f02e4611e6235949cb7e9ccaf16e14d.jpg"
                 alt=""
@@ -1386,19 +1386,19 @@ export default function Home() {
                 className={`transition-all ease duration-500 ${faqitemOneClass}`}
               >
                 <ul style={{ listStyleType: "decimal" }}>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; A zen den filled with good vibes, where you can
                     find your inner peace and unleash your yoga superpowers.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Yoga classes that will make you feel like a
                     graceful ninja floating on a cloud of tranquility.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; A yoga wonderland equipped with mats, props, and a
                     sprinkle of magic to enhance your practice.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Friendly yogi tribes ready to share laughter,
                     inspiration, and a few not-so-serious yoga challenges.
                   </li>
@@ -1432,23 +1432,23 @@ export default function Home() {
                 className={`transition-all ease duration-500 ${faqitemTwoClass}`}
               >
                 <ul>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Boring stuff! We promise to keep the energy high
                     and the boredom low.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Negative vibes. Leave those at the door and step
                     into a positive and uplifting atmosphere.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Limits! Embrace the freedom to explore, challenge
                     yourself, and break through barriers.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Stress or worries. Get ready to unwind, relax, and
                     find your Zen.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Time machines. Unfortunately, we haven't mastered
                     time travel (yet!).
                   </li>
@@ -1482,20 +1482,20 @@ export default function Home() {
                 className={`transition-all ease duration-500 ${faqitemThreeClass}`}
               >
                 <ul>
-                  <li className="md:text-lg  md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg text-sm  md:mb-1 font-sans text-medium-green">
                     - &nbsp; Ride a friendly dolphin and follow the waves to our
                     sunny shores.
                   </li>
-                  <li className="md:text-lg  md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg text-sm  md:mb-1 font-sans text-medium-green">
                     - &nbsp; Fly on a magic carpet, taking in the scenic views
                     until you spot our colorful yoga oasis.
                   </li>
-                  <li className="md:text-lg  md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg text-sm  md:mb-1 font-sans text-medium-green">
                     - &nbsp; Embark on a treasure hunt! Follow the signs
                     decorated with yoga poses that lead you straight to our
                     studio.
                   </li>
-                  <li className="md:text-lg  md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg text-sm  md:mb-1 font-sans text-medium-green">
                     - &nbsp; Use your secret teleportation coordinates: Inhale,
                     exhale, spin around three times, and voila! You'll find
                     yourself in our welcoming space.
@@ -1530,23 +1530,23 @@ export default function Home() {
                 className={`transition-all ease duration-500 ${faqitemFourClass}`}
               >
                 <ul>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Comfortable and stretchy yoga attire that allows
                     freedom of movement.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; A high-quality yoga mat for a comfortable and
                     non-slip practice.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Yoga props such as blocks, straps, and bolsters to
                     support and enhance your practice.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; A reusable water bottle to stay hydrated during
                     your practice.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; A journal or notebook to reflect on your yoga
                     journey and take notes during classes.
                   </li>
@@ -1581,20 +1581,20 @@ export default function Home() {
                 className={`transition-all ease duration-500 ${faqitemFiveClass}`}
               >
                 <ul>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Cancellations made at least 24 hours prior to the
                     scheduled class time will receive a full refund.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Cancellations made within 24 hours of the scheduled
                     class time may be subject to a cancellation fee.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; No-shows or failure to cancel within the specified
                     time frame will result in the forfeiture of the class or
                     session.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Refunds for pre-paid packages or memberships may be
                     subject to specific terms and conditions.
                   </li>
@@ -1629,20 +1629,20 @@ export default function Home() {
                 className={`transition-all ease duration-500 ${faqitemSixClass}`}
               >
                 <ul>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Cash: We accept cash payments at our facility.
                     Please have the exact amount.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Credit or Debit Card: We accept all major credit
                     and debit cards for a hassle-free payment.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Online Payment: Our website provides a secure
                     online payment platform for easy and convenient
                     transactions.
                   </li>
-                  <li className="md:text-lg md:mb-1 font-sans text-medium-green">
+                  <li className="md:text-lg md:mb-1 font-sans text-sm text-medium-green">
                     - &nbsp; Mobile Payment Apps: You can also make payments
                     using popular mobile payment apps.
                   </li>
